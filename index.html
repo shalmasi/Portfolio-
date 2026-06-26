@@ -1,83 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shahab Almasi — Project Files</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      max-width: 680px;
-      margin: 60px auto;
-      padding: 0 24px;
-      color: #1a1a1a;
-      background: #fff;
-    }
-    h1 { font-size: 1.4rem; font-weight: 600; margin-bottom: 4px; }
-    p.sub { color: #666; font-size: .9rem; margin-bottom: 40px; }
-    table { width: 100%; border-collapse: collapse; }
-    th {
-      text-align: left; font-size: .72rem; text-transform: uppercase;
-      letter-spacing: .08em; color: #999; padding-bottom: 8px;
-      border-bottom: 1px solid #e0e0e0;
-    }
-    td {
-      padding: 14px 0;
-      border-bottom: 1px solid #f0f0f0;
-      font-size: .9rem;
-      vertical-align: top;
-    }
-    td:first-child { width: 30%; color: #444; }
-    td:nth-child(2) { width: 40%; font-weight: 500; }
-    td:last-child { width: 30%; text-align: right; }
-    a { color: #1a56db; text-decoration: none; font-size: .85rem; }
-    a:hover { text-decoration: underline; }
-    footer { margin-top: 48px; font-size: .78rem; color: #bbb; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shahab Almasi | Steel Detailer</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+<header><nav><h2>SHAHAB ALMASI</h2><ul><li><a href="#projects">Projects</a></li><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li></ul></nav></header>
 
-<h1>Shahab Almasi</h1>
-<p class="sub">Steel Structure Detailing Engineer &nbsp;·&nbsp; sh.almasi@gmail.com</p>
+<section class="hero">
+<div class="hero-text">
+<h1>Steel Detailer</h1>
+<h3>Tekla Structures Specialist</h3>
+<p>Industrial • Power Plant • Steel Structures</p>
+<div class="buttons">
+<a class="btn" href="resume.pdf">Resume</a>
+<a class="btn-outline" href="https://linkedin.com/in/shahabalmasi">LinkedIn</a>
+</div>
+</div>
+<div class="hero-image"><img src="images/hero.jpg" alt=""></div>
+</section>
 
-<table>
-  <thead>
-    <tr>
-      <th>Type</th>
-      <th>Project</th>
-      <th>Files</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Power Plant</td>
-      <td>Multi-Lot Power Plant — Bushehr</td>
-      <td><a href="projects/project-1/">View files →</a></td>
-    </tr>
-    <tr>
-      <td>Industrial Frame</td>
-      <td>Heavy Industrial Steel Frame</td>
-      <td><a href="projects/project-2/">View files →</a></td>
-    </tr>
-    <tr>
-      <td>Process Plant</td>
-      <td>Process Plant Steelwork</td>
-      <td><a href="projects/project-3/">View files →</a></td>
-    </tr>
-    <tr>
-      <td>Multi-Story</td>
-      <td>Multi-Story Steel Building</td>
-      <td><a href="projects/project-4/">View files →</a></td>
-    </tr>
-    <tr>
-      <td>Fabrication Shop</td>
-      <td>Fabrication Facility Structure</td>
-      <td><a href="projects/project-5/">View files →</a></td>
-    </tr>
-  </tbody>
-</table>
+<section id="projects">
+<h2 class="title">Featured Projects</h2>
+<div class="cards">
+<div class="card"><img src="images/project1.jpg"><h3>Power Plant</h3><p>Steel detailing for a multi-lot power plant project.</p><a href="projects/powerplant.html">View Project →</a></div>
+<div class="card"><img src="images/project2.jpg"><h3>Industrial Building</h3><p>Fabrication drawings, NC files and erection drawings.</p><a href="projects/industrial.html">View Project →</a></div>
+<div class="card"><img src="images/project3.jpg"><h3>Warehouse</h3><p>Heavy steel warehouse structures.</p><a href="projects/warehouse.html">View Project →</a></div>
+<div class="card"><img src="images/project4.jpg"><h3>Cold Storage</h3><p>Steel framing for cold storage facilities.</p><a href="projects/coldstorage.html">View Project →</a></div>
+</div></section>
 
-<footer>github.com/shalmasi</footer>
+<section id="about"><div class="about"><div><h2>About</h2><p>I specialize in steel detailing for industrial and power plant projects using Tekla Structures.</p></div>
+<div class="stats"><div><h3>6+</h3><span>Years Experience</span></div><div><h3>12000+</h3><span>Tons Detailed</span></div><div><h3>5+</h3><span>Industrial Projects</span></div></div></div></section>
 
-</body>
-</html>
+<section class="software"><h2>Software</h2><div class="logos">
+<img src="icons/tekla.svg"><img src="icons/autocad.svg"><img src="icons/sap.svg"><img src="icons/etabs.svg"><img src="icons/idea.svg"><img src="icons/safe.svg">
+</div></section>
+
+<section id="contact"><h2>Let's Work Together</h2><p>Available for Remote Steel Detailing Projects</p>
+<div class="contactButtons">
+<a href="mailto:sh.almasi@gmail.com">Email</a>
+<a href="https://linkedin.com/in/shahabalmasi">LinkedIn</a>
+<a href="https://github.com/">GitHub</a>
+</div></section>
+<footer>© 2026 Shahab Almasi</footer>
+</body></html>
